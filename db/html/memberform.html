@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert new member</title>
+</head>
+<body>
+
+<form>
+        <input type="button" value="Go back" onclick="window.location.href='membersmain.html'"/><br><br>
+        Name :<input type="text" name="name"><br>
+        Gender :<br> <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other <br>
+        D.O.B. : <input type="date" name="dob"><br>
+        Address : <input type="text" name="address"><br>
+        Phone : <input type="number" name="phone"><br>
+        Membership start date :<input type="date" name="joindate"><br>
+        Membership type :<select name="mtype">
+        <option value="month">Monthly</option>
+        <option value="quarter">Quarterly</option>
+        <option value="half">Half-yearly</option>
+        <option value="annual">Annual</option></select>
+        <br><br>
+        <input type="submit" value="Submit"><br>
+
+    </form>
+
+</body>
+</html>
