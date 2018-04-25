@@ -49,6 +49,10 @@ function display() {
     });
 }
 
+function remove(eid) {
+    connection.query(`delete * from employees WHERE eid ='${eid}'`)
+}
+
 module.exports = {
     createtable:createtables,
     connect: Connect,
